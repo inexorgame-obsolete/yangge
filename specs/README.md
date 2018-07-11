@@ -18,7 +18,7 @@ Before we start with technical fuss, here is a list of points that are deemed _"
 - Developers should be able to build & run multiple versions of the game engine at the same time
 - Developers should be able to debug, pause, resume, forward (..) the game engine at any time
 
-## Architecture requirements for yaggne
+## Architecture requirements for yangge
 Every component, as well as it's composition of components should fullfill the requirements defined.
 The current document specifies a _"definition of requirements"_ as defined below:
 
@@ -26,15 +26,15 @@ The current document specifies a _"definition of requirements"_ as defined below
 - thus, every part of the engine should be testable in isolation
 - thus, every part of the engine should be plug and play as long as it meets the specification
 
-## High level architecture for yaggne
-Yaggne is structured in two main ecosystems:
+## High level architecture for yangge
+Yangge is structured in two main ecosystems:
 
 - Manager
 - Executor
 
 This distinction is made in order to split the system into computation-heavy tasks as well as tasks that are purely business-logic.
 The system is illustrated below, and explained further in detail in the spec.
-![yangge architecture](../blob/master/specs/yangge.png)
+![yangge architecture](../master/specs/yangge.png)
 We will introduce a few formal definitions in order to work with them in the specification.
 
 ### Component
